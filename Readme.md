@@ -7,7 +7,7 @@ Requires CoffeeScript's `coffee` executable in path for make compilation. Coffee
 ## Usage
 
 1. `npm install -g archie`
-1. `archie gen -a mocha-coffee -n myproject`
+1. `archie gen -a mocha-coffee-web -n myproject`
 1. Replace `example.coffee` in both `test` and `src` with your own code.
 1. `make` to compile source and test CoffeeScript, or else `make watch` and `make test-watch` for automatic compilation
 1. Edit `Readme.md`, replacing this project's details with your own.
